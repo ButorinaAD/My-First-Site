@@ -1,0 +1,120 @@
+
+
+/* /* Небольшие ноутбуки (экран до 1440px) */
+@media (max-width: 1440px) {
+    .hero {
+        height: 820px;
+    }
+
+    .hero-icon {
+        left: 980px; /* Подвигаем иконку левее под экран 1440px */
+        top: 310px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .title-hero {
+        font-size: 230px;
+        top: 420px;
+        left: -120px;
+    }
+}
+
+/* Планшеты горизонтально (экран до 1024px) */
+@media (max-width: 1024px) {
+    .hero {
+        height: 700px;
+    }
+
+    .copirait-container {
+        padding: 30px 40px 0 40px;
+    }
+
+    .copirait {
+        font-size: 16px;
+    }
+
+    .copirait-right-text {
+        width: 420px;
+        font-size: 16px;
+    }
+
+    .hero-icon {
+        left: 720px;
+        top: 270px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .title-hero {
+        font-size: 170px;
+        top: 380px;
+        left: -80px;
+    }
+}
+
+/* Планшеты вертикально (экран до 768px) */
+@media (max-width: 768px) {
+    .hero {
+        height: 620px;
+    }
+
+    .copirait-container {
+        padding: 24px 24px 0 24px;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .copirait-right-text {
+        width: 340px;
+        height: auto;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .hero-icon {
+        left: 520px;
+        top: 250px;
+        width: 85px;
+        height: 85px;
+    }
+
+    .title-hero {
+        font-size: 130px;
+        top: 360px;
+        left: -50px;
+    }
+}
+
+/* Телефоны (экран до 480px) */
+@media (max-width: 480px) {
+    .hero {
+        height: 560px;
+    }
+
+    .copirait-container {
+        padding: 20px 16px 0 16px;
+    }
+
+    .copirait {
+        font-size: 14px;
+    }
+
+    .copirait-right-text {
+        width: 280px;
+        font-size: 14px;
+    }
+
+    .hero-icon {
+        left: 270px;
+        top: 240px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .title-hero {
+        font-size: 90px; /* Всё ещё выходит за края телефона в одну строку! */
+        top: 340px;
+        left: -30px;
+    }
+}

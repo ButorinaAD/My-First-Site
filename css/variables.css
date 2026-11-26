@@ -1,0 +1,41 @@
+:root {
+    --color-white:#FFFFFF;
+    --color-black:#000000;
+    --color-black-grey:#616161;
+    --color-grey-Cynical-Black:#171717;
+    --color-grey-Silver: #C6C6C6;
+    --color-grey-Darth-Vader: #262626;
+    --color-grey-light: #D4D4D4;
+    --color-grey-Classy: #AEAEAE;
+    --color-grey: #7E7E7E;
+    --color-primary: #455CE9;
+    --color-Nero: #1D1D1D;
+    --color-grey-dark: #141414;
+    --color-grey-Traffic-Black: #1E1E1E;
+    --color-grey-medium‑light: #AAAAAA;
+    --font-family-title:'Inter', 'sans-serif';
+    --font-family-text:'DM Sans';
+    --font-family-CTA-text: 'IBM Plex Mono';
+/*     --margin-top-copirait-container: 37px;
+    --margin-horizontal-copirait-container: 61px;
+    --mardin-copirait-container: 37px 61px 0 61px;
+    --gap-copirait-container: 1017px;
+    --margin-header: 0 auto 53px;
+    --gap-header: 11px;
+    --padding-header: 10px 20px;
+    --margin-hero-icon: 362px 556px 469px 1222px;
+    --margin-hero-title: 474px -1414px 135px -1049;
+    --margin-about-container: 100px 172px;
+    --gap-about-container: 73px;
+    --padding-right-text-container: 14px 0;
+    --gap-right-text-container: 17px;
+    --margin-coursers-container: 100px 133px;
+    --gap-courses-container: 66px;
+    --gap-title-courses: auto;
+    --gap-courses-cards-container: 40px;
+    --gap-courses-card: 29px;
+    --padding-CTA-container: 66px 133px;
+    --gap-CTA-container: 113px;
+    --margin-CTA-text: 66px 977px 0 133px;
+    --margin-button*/
+}
